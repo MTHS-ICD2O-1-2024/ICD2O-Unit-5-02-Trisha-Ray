@@ -30,24 +30,30 @@
                 <mxCell id="13" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;curved=0;" edge="1" parent="1" source="7" target="12">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="select positive or negative" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="7" value="if&lt;div&gt;positive == true&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
                     <mxGeometry x="350" y="130" width="100" height="100" as="geometry"/>
                 </mxCell>
                 <mxCell id="15" style="edgeStyle=elbowEdgeStyle;html=1;rounded=0;elbow=vertical;" edge="1" parent="1" source="10">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="400" y="400" as="targetPoint"/>
+                        <mxPoint x="400" y="450" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="10" value="generate positive number" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="520" y="200" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="520" y="220" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" style="edgeStyle=elbowEdgeStyle;html=1;elbow=vertical;rounded=0;curved=0;" edge="1" parent="1" source="12">
+                <mxCell id="14" style="edgeStyle=elbowEdgeStyle;html=1;elbow=vertical;rounded=0;curved=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="12" target="3">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="400" y="370" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="12" value="generate negative number" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="180" y="230" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="325" y="198" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="198" width="40" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
