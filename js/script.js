@@ -15,12 +15,12 @@ function calculate() {
   // process
   if(userInput === "1") {
     //output
-    document.getElementById('result').innerHTML =
+    document.getElementById('results').innerHTML =
       '<p>The random number is:' + positiveRandomNumber + '</p>'
   }
   else {
    // output
-    document.getElementById('result').innerHTML =
+    document.getElementById('results').innerHTML =
       '<p>The random number is: ' + negativeRandomNumber + '</p>';
   }
 }
