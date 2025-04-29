@@ -5,21 +5,22 @@
 // This file contains the JS functions for index.html
 
 'use strict'
-
-const positiveRandomNumber = Math.floor(Math.random() * 6) + 1
-const negativeRandomNumber = Math.floor(Math.random() * 6)* -1
-
+/**
+ * This function checks if the user has selected a random number
+ */
 function calculate() {
   // input
-  const userInput = document.querySelector('input[name="kind-of-number"]:checked').value;
+  const userInput = document.getElementById("option-positive").checked;
+
   // process
-  if(userInput === "1") {
-    //output
+  const positiveRandomNumber = Math.floor(Math.random() * 6) + 1;
+  const negativeRandomNumber = -1 * (Math.floor(Math.random() * 6) + 1);
+
+  // output
+  if (userInput) {
     document.getElementById('results').innerHTML =
-      '<p>The random number is:' + positiveRandomNumber + '</p>'
-  }
-  else {
-   // output
+      '<p>The random number is: ' + positiveRandomNumber + '</p>';
+  } else {
     document.getElementById('results').innerHTML =
       '<p>The random number is: ' + negativeRandomNumber + '</p>';
   }
